@@ -1,0 +1,7 @@
+import crafttweaker.mods.ILoadedMods;
+
+val mod = loadedMods["minecraft"];
+
+for mod in loadedMods {
+    recipes.remove(mod);
+}
